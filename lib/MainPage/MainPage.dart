@@ -10,9 +10,16 @@ class MainPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        //backgroundColor: Color(0xff1E1E1E),
+
         body: Column(
-          children: const <Widget>[
-            MainAppBar(),
+          children: <Widget>[
+            const MainAppBar(),
+            Container(
+              height: 19.h,
+              color: Theme.of(context).canvasColor,
+            ),
+            //scrollWidget
           ],
         ),
       ),

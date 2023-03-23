@@ -10,7 +10,12 @@ class MyApp extends StatelessWidget {
     return ScreenUtilInit(
       designSize: const Size(375, 830),
         builder: (context, child) {
-          return const MaterialApp(
+          return MaterialApp(
+            theme: ThemeData(
+              scaffoldBackgroundColor: Color.fromRGBO(255, 255, 255, 1),
+              canvasColor: Color(0xFF1E1E1E),
+
+            ),
             home:MainPage(),
           );
         }
