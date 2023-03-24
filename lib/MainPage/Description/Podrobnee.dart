@@ -7,33 +7,33 @@ class Podrobnee extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      height: 22.h,
-      width: 83.w,
-      child: TextButton(
-        onPressed: null,
-        child: SizedBox(
-          height: 22.h,
-          width: 83.w,
-          child: Row(
+    return TextButton(
+      onPressed: () {},
+      style: TextButton.styleFrom(
+        fixedSize: Size(83.w, 22.h),
+        //maximumSize: Size(83.w, 22.h),
+        padding: EdgeInsets.zero
+      ),
+      child: Row(
 
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Container(
-                height: 16.h,
-                width: 16.h,
-                padding: EdgeInsets.symmetric(vertical: 4.5.h, horizontal: 1.5.w),
-                child: Image.asset("assets/downLid.png"),
-              ),
-              SizedBox(width: 4.w,),
-              Text(
-                  "Подробнее",
-                style: MyTextStyles.podrobnee,
-              )
-
-            ],
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Align(
+            alignment: Alignment.centerLeft,
+            child: Container(
+              height: 16.h,
+              width: 16.h,
+              padding: EdgeInsets.symmetric(vertical: 4.5.h, horizontal: 1.5.w),
+              child: Image.asset("assets/downLid.png"),
+            ),
           ),
-        ),
+          SizedBox(width: 4.w,),
+          Text(
+              "Подробнее",
+            style: MyTextStyles.podrobnee,
+          )
+
+        ],
       ),
     );
   }

@@ -36,7 +36,7 @@ abstract class MyTextStyles{
     color: Color.fromRGBO(0, 0, 0, 1),
     fontWeight: FontWeight.w600,
     height: 20/16,
-    letterSpacing: -0.24.w,
+    letterSpacing: 0.24.w,
   );
 
   static final descriptionHead = TextStyle(
@@ -45,7 +45,7 @@ abstract class MyTextStyles{
     color: Color.fromRGBO(0, 0, 0, 1),
     fontWeight: FontWeight.w700,
     height: 15/18,
-    letterSpacing: 0.35.w,
+    letterSpacing: 1.w,
   );
 
   static final description = TextStyle(
@@ -62,7 +62,7 @@ abstract class MyTextStyles{
     fontSize: 12.h,
     color: Color.fromRGBO(0, 122, 255, 1),
     fontWeight: FontWeight.w400,
-    height: 22/12,
-    letterSpacing: -0.41.w,
+    height: 14/12,
+    letterSpacing: 0.2.w,
   );
 }

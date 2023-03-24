@@ -10,6 +10,7 @@ class Description extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 186.h,
+      //height: 250.h,
       padding: EdgeInsets.symmetric(vertical: 15.h, horizontal: 16.w),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -24,7 +25,10 @@ class Description extends StatelessWidget {
             style: MyTextStyles.description
           ),
           SizedBox(height: 7.h,),
-          Podrobnee(),
+          SizedBox(
+            height: 22.h,
+            child: Podrobnee(),
+          ),
         ],
       ),
     );
