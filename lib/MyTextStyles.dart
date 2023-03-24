@@ -8,7 +8,8 @@ abstract class MyTextStyles{
     fontSize: 17.sp,
     color: Colors.black,
     fontWeight: FontWeight.w600,
-    letterSpacing: -0.41.sp,
+    //height: 22.sp,
+    letterSpacing: -0.41.w,
   );
 
   static final name = TextStyle(
@@ -16,7 +17,8 @@ abstract class MyTextStyles{
     fontSize: 18.sp,
     color: Colors.black,
     fontWeight: FontWeight.w400,
-    letterSpacing: -0.24.sp,
+    //height: 25.h,
+    letterSpacing: -0.24.w,
   );
 
   static final address = TextStyle(
@@ -24,7 +26,8 @@ abstract class MyTextStyles{
     fontSize: 13.sp,
     color: Color.fromRGBO(0, 122, 255, 1),
     fontWeight: FontWeight.w400,
-    letterSpacing: -0.08.sp,
+    //height: 18.h,
+    letterSpacing: -0.08.w,
   );
 
   static final price = TextStyle(
@@ -32,7 +35,34 @@ abstract class MyTextStyles{
     fontSize: 16.sp,
     color: Color.fromRGBO(0, 0, 0, 1),
     fontWeight: FontWeight.w600,
-    letterSpacing: -0.24.sp,
+    //height: 20.h,
+    letterSpacing: -0.24.w,
   );
 
+  static final descriptionHead = TextStyle(
+    fontFamily: "OpenSans",
+    fontSize: 18.sp,
+    color: Color.fromRGBO(0, 0, 0, 1),
+    fontWeight: FontWeight.w700,
+    //height: 15.h,
+    letterSpacing: 0.35.w,
+  );
+
+  static final description = TextStyle(
+    fontFamily: "OpenSans",
+    fontSize: 12.sp,
+    color: Color.fromRGBO(0, 0, 0, 1),
+    fontWeight: FontWeight.w400,
+    //height: 16.8.h,
+    letterSpacing: 0.35.w,
+  );
+
+  static final podrobnee = TextStyle(
+    fontFamily: "OpenSans",
+    fontSize: 12.sp,
+    color: Color.fromRGBO(0, 122, 255, 1),
+    fontWeight: FontWeight.w400,
+    //height: 22.h,
+    letterSpacing: -0.41.w,
+  );
 }

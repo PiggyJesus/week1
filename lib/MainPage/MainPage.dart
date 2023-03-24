@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:week1/MainPage/Description/Description.dart';
 import 'package:week1/MyTextStyles.dart';
 import 'package:week1/MainPage/GeneralInfo/GeneralInfo.dart';
 
@@ -54,6 +55,7 @@ class MainPage extends StatelessWidget {
               height: 10.h,
               color: Theme.of(context).canvasColor,
             ),
+            Description(),
           ],
         ),
       ),

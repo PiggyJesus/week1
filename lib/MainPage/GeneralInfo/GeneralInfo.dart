@@ -15,13 +15,9 @@ class GeneralInfo extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            SizedBox(
-              height: 25.h,
-              child: Text(
-                "Квартира-студия, 40м, 16/23 эт.",
-                style: MyTextStyles.name,
-                textAlign: TextAlign.left,
-              ),
+            Text(
+              "Квартира-студия, 40м, 16/23 эт.",
+              style: MyTextStyles.name,
             ),
             SizedBox(height: 2.h,),
             Address(),

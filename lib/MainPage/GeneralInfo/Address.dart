@@ -9,7 +9,6 @@ class Address extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 18.h,
         child:Row(
 
       children: [
