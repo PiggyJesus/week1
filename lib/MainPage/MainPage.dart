@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:week1/MainPage/Avito/Avito.dart';
 import 'package:week1/MainPage/Description/Description.dart';
 import 'package:week1/MainPage/Photos/Photos.dart';
+import 'package:week1/MainPage/Specifications/Specifications.dart';
 import 'package:week1/MyTextStyles.dart';
 import 'package:week1/MainPage/GeneralInfo/GeneralInfo.dart';
 
@@ -62,6 +64,12 @@ class MainPage extends StatelessWidget {
               height: 10.h,
               color: Theme.of(context).canvasColor,
             ),
+            Specifications(),
+            Container(
+              height: 7.h,
+              color: Theme.of(context).canvasColor,
+            ),
+            Avito(),
           ],
         ),
       ),

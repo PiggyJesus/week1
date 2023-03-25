@@ -17,7 +17,7 @@ class Description extends StatelessWidget {
         children: [
           Text(
             "Описание",
-            style: MyTextStyles.descriptionHead,
+            style: MyTextStyles.title,
           ),
           SizedBox(height: 11.h,),
           Text(

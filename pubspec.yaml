@@ -37,6 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_screenutil: ^5.7.0
   flutter_svg: ^2.0.4
+  url_launcher: ^6.1.10
 
 
 
@@ -72,6 +73,12 @@ flutter:
     - assets/downLid.svg
     - assets/photo.svg
     - assets/photo.png
+    - assets/Specification/plus.svg
+    - assets/Specification/square.svg
+    - assets/Specification/ceiling.svg
+    - assets/Specification/repair.svg
+    - assets/avito.svg
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

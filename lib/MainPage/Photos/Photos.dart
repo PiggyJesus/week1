@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:week1/MyColors.dart';
 import 'package:week1/MyTextStyles.dart';
 
 class Photos extends StatefulWidget {
@@ -61,7 +62,7 @@ class _PhotosState extends State<Photos> {
             child: ClipRRect(
               borderRadius: BorderRadius.circular(2.r),
               child: Container(
-                color: Colors.grey.shade800,
+                color: MyColors.pageCounter,
                 child: Center(
                   child: Text(
                       "${currentPage}/${data.length}",
