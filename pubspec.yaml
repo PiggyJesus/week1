@@ -71,13 +71,12 @@ flutter:
     - assets/addressIconCircle.svg
     - assets/addressIconPointer.svg
     - assets/downLid.svg
-    - assets/photo.svg
     - assets/photo.png
     - assets/Specification/plus.svg
     - assets/Specification/square.svg
     - assets/Specification/ceiling.svg
     - assets/Specification/repair.svg
-    - assets/avito.svg
+    - assets/avito.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

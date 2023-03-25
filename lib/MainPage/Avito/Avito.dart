@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:week1/MyTextStyles.dart';
 
@@ -29,10 +28,10 @@ class Avito extends StatelessWidget {
         ),
         child: Row(
           children: [
-            SvgPicture.asset(
-              "assets/avito.svg",
-              // height: 22.h,
-              // width: 21.w,
+            Image.asset(
+                "assets/avito.png",
+                // height: 22.h,
+                // width: 21.w,
             ),
             SizedBox(width: 10.w,),
             Text(
