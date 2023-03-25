@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:week1/MainPage/Description/Description.dart';
 import 'package:week1/MyTextStyles.dart';
 import 'package:week1/MainPage/GeneralInfo/GeneralInfo.dart';
@@ -25,18 +26,18 @@ class MainPage extends StatelessWidget {
               children: [
                 Padding(
                   padding: EdgeInsets.fromLTRB(5.06.w, 10.12.h, 5.06.w, 13.6.h),
-                  child: Image.asset("assets/vector.png"),
+                  child: SvgPicture.asset("assets/vector.svg"),
                 ),
                 Padding(
                   padding: EdgeInsets.fromLTRB(0.w, 20.13.h, 0.w, 10.24.h),
-                  child: Image.asset("assets/lowerBracket.png"),
+                  child: SvgPicture.asset("assets/lowerBracket.svg"),
                 ),
               ],
             ),
             SizedBox(width: 16.69.w,),
             Padding(
               padding: EdgeInsets.symmetric(vertical: 16.31.h),
-              child: Image.asset("assets/ellipsis.png"),
+              child: SvgPicture.asset("assets/ellipsis.svg"),
             ),
             SizedBox(width: 14.69.w,),
           ],
@@ -56,6 +57,10 @@ class MainPage extends StatelessWidget {
               color: Theme.of(context).canvasColor,
             ),
             Description(),
+            Container(
+              height: 10.h,
+              color: Theme.of(context).canvasColor,
+            ),
           ],
         ),
       ),
