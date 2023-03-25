@@ -8,8 +8,7 @@ class Address extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-        child:Row(
+    return Row(
 
       children: [
         AddressIcon(),
@@ -21,7 +20,6 @@ class Address extends StatelessWidget {
           style: MyTextStyles.address,
         ),
       ],
-    )
     );
   }
 }

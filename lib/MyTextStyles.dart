@@ -12,6 +12,15 @@ abstract class MyTextStyles{
     letterSpacing: -0.41.w,
   );
 
+  static final scrollCount = TextStyle(
+    fontFamily: "OpenSans",
+    fontSize: 9.h,
+    color: Colors.white,
+    fontWeight: FontWeight.w400,
+    height: 10/9,
+    letterSpacing: 1.59.w,
+  );
+
   static final name = TextStyle(
     fontFamily: "OpenSans",
     fontSize: 18.h,

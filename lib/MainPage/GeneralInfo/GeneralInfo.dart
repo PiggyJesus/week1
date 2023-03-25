@@ -9,8 +9,7 @@ class GeneralInfo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: 109.h,
+    return Padding(
       padding: EdgeInsets.fromLTRB(16.w, 12.h, 16.w, 15.h),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
